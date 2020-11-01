@@ -18,7 +18,7 @@ En caso de no ser válidas, se mostrará el mensaje "Acceso denegado" y se elimi
 
 Al pulsar el botón "Cancelar" terminará la aplicación.
 
-#### Fichero de contraseñas
+### Fichero de contraseñas
 
 Los usuarios válidos se encontrarán en el fichero "users.csv" en formato CSV (Comma Separated Values), donde el primer campo será el nombre del usuario y el segundo la contraseña cifrada en MD5.
 
@@ -28,7 +28,7 @@ charles,3A7C8BB6458FEA1D196D1E4C665F826F
 david,586D5521413883B07AC8E7397B0F0AAD
 ```
 
-#### Cómo cifrar las contraseñas
+### Cómo cifrar las contraseñas
 
 Las contraseñas irán cifradas mediante el algoritmo MD5. Éstas no se pueden descifrar, sino que lo que haremos será cifrar en MD5 la contraseña introducida y comprobar que coincide con la del fichero.
 
